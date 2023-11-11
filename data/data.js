@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');  
+const Schema = mongoose.Schema;
 
 let palestineBrands = [
     {
@@ -213,7 +215,7 @@ let palestineBrands = [
     }
   ];
   
-  let palestineCountries = [
+let palestineCountries = [
     {
   
       "id": 1,
@@ -223,8 +225,9 @@ let palestineBrands = [
         "title": "Turkey voices support for Palestine",
         "brief": "Turkey has been a vocal supporter of Palestine and has condemned Israel's actions in the current conflict.",
         "detailed": "Turkey's President Erdogan has called for an end to the violence and has criticized Israel's actions as 'state terror.' The Turkish government has also sent aid to Gaza and has called for an emergency meeting of the Organization of Islamic Cooperation to discuss the situation.",
-        "reference": "https://www.aljazeera.com/news/2023/10/23/which-countries-have-sent-aid-to-gaza-so-far",
-      }
+      },
+      "reference": "https://www.aljazeera.com/news/2023/10/23/which-countries-have-sent-aid-to-gaza-so-far",
+
     },
   
     {
@@ -396,7 +399,7 @@ let palestineBrands = [
     }
   ];
   
-  let israelBrands = [{
+let israelBrands = [{
     "id": 1,
     "brand": "Apple",
     "image_link": "https://static.timesofisrael.com/www/uploads/2016/08/000_FQ0UD.jpg",
@@ -585,226 +588,276 @@ let palestineBrands = [
     "reference": "https://www.teenvogue.com/story/mac-cosmetics-viva-glam-unicef-donation"
   }];
   
-  let israelCountries = [{
+let israelCountries = [{
     "id": 1,
-    "name": "United States", 
+    "country": "United States", 
     "image_link": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_428,w_640/430464",
     "news": {
       "title": "US Affirms Unwavering Support for Israel's Right to Defend Itself",
       "brief": "The US has expressed strong support for Israel's right to defend itself and has not condemned its military actions in Gaza.",
       "detailed": "The US has blocked UN condemnations of Israel's actions . The US gives $3.8 billion annually in military aid to Israel . President Biden affirmed support for Israel's right to self-defense in call with Netanyahu."
     },
-    "references": [
+    "references": 
         "https://www.defense.gov/News/News-Stories/Article/Article/3551956/us-helps-israel-defend-against-hamas-attacks/"
-    ]},{
+    },{
     "id": 2,
-    "name": "United Kingdom", 
+    "country": "United Kingdom", 
     "image_link": "https://static.jewishnews.co.uk/jewishnews/uploads/2020/04/Israeli-British-flag.jpg",
     "news": {
       "title": "UK Joins US and Other Countries in Supporting Israel",
       "brief": "The UK has joined the US and other countries in expressing support for Israel's right to defend itself.",
       "detailed": "The leaders of France, Germany, Italy, and Britain made a joint statement of “steadfast and united support to the state of Israel” which condemned Hamas’ “appalling acts of terrorism” . Other Western nations, including Australia, Canada, and New Zealand, have condemned Hamas and made statements of solidarity with Israel ."
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]},{
+    },{
     "id": 3,
-    "name": "France", 
+    "country": "France", 
     "image_link": "https://static.timesofisrael.com/www/uploads/2014/07/France-Pro-Israel-Pro_Horo1.jpg",
     "news": {
       "title": "France Joins US and Other Countries in Supporting Israel",
       "brief": "France has joined the US and other countries in expressing support for Israel's right to defend itself.",
       "detailed": "The leaders of France, Germany, Italy, and Britain made a joint statement of “steadfast and united support to the state of Israel” which condemned Hamas’ “appalling acts of terrorism” ."
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]},{
+    },{
     "id": 4,
-    "name": "Australia", 
+    "country": "Australia", 
     "image_link": "https://imengine.public.prod.mmg.navigacloud.com/?uuid=201027fe-53a5-597a-a690-08972a9044d9&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.75&x=0&y=0&width=1200&height=675",
     "news": {
       "title": "Australia Joins US and Other Countries in Supporting Israel",
       "brief": "Australia has joined the US and other countries in expressing support for Israel's right to defend itself.",
       "detailed": "Other Western nations, including Australia, Canada, and New Zealand, have condemned Hamas and made statements of solidarity with Israel."
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]},{
+    },{
     "id": 5,
-    "name": "Germany", 
+    "country": "Germany", 
     "image_link": "https://cdn.prod.www.spiegel.de/images/1740cbab-4e6b-4e47-b163-defc49c9240b_w640_r1.3496_fpx37.03_fpy49.98.jpg",
     "news": {
       "title": "Germany Joins US and Other Countries in Supporting Israel",
       "brief": "Germany has joined the US and other countries in expressing support for Israel's right to defend itself.",
       "detailed": "The leaders of France, Germany, Italy, and Britain made a joint statement of “steadfast and united support to the state of Israel” which condemned Hamas’ “appalling acts of terrorism” ."
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]},{
+    },{
     "id": 6,
-    "name": "Italy", 
+    "country": "Italy", 
     "image_link": "https://www.israelhayom.com/wp-content/uploads/2021/02/israel-italy.jpg",
     "news": {
       "title": "Italy Joins US and Other Countries in Supporting Israel",
       "brief": "Italy has joined the US and other countries in expressing support for Israel's right to defend itself.",
       "detailed": "The leaders of France, Germany, Italy, and Britain made a joint statement of “steadfast and united support to the state of Israel” which condemned Hamas’ “appalling acts of terrorism” ."
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]},{
+    },{
     "id": 7,
-    "name": "Canada", 
+    "country": "Canada", 
     "image_link": "https://thecjn.ca/wp-content/uploads/2015/11/Canada-Israel-Flag-e1561476924141.jpg",
     "news": {
       "title": "Canada Joins Other Western Nations in Supporting Israel",
       "brief": "Canada has joined other Western nations in condemning Hamas and expressing solidarity with Israel.",
       "detailed": "Other Western nations, including Australia, Canada, and New Zealand, have condemned Hamas and made statements of solidarity with Israel "
     },
-    "references": [
+    "references": 
         "https://www.smh.com.au/world/middle-east/which-side-countries-that-back-israel-and-those-that-oppose-it-20231011-p5ebiz.html"
-    ]
+    
   },
   {
     "id": 8,
-    "name": "Brazil", 
+    "country": "Brazil", 
     "image_link": "https://th.bing.com/th/id/R.39e71f4fcd50a685b59e814436e88efe?rik=gbBri8HtdDpdyg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fsZzrQNk.jpg&ehk=TUbYFJA%2fy0iqiBDN1i24sTBcAOha1oPm1uIodwABMCM%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Brazil Joins Other Western Nations in Supporting Israel",
       "brief": "Brazil fired its ambassador to Israel, Yossi Shelley, who was appointed by the previous president Jair Bolsonaro, a strong supporter of Israel and friend of Prime Minister Benjamin Netanyahu",
       "detailed": "Brazil supported the United Nations resolution that called for humanitarian assistance and a humanitarian truce for the Israel-Hamas conflict, adopted by a vote of 121 states to 14, with 44 abstentions, Brazil also backed the International Criminal Court’s investigation into alleged war crimes committed by both sides in the conflict"
     },
-    "references": [
+    "references": 
         "https://www.hrw.org/news/2023/10/13/amid-israel/palestine-hostilities-brazil-should-press-respect-international-law"
-    ]
+    
   },
   {
     "id": 9,
-    "name": "Bulgaria", 
+    "country": "Bulgaria", 
     "image_link": "https://wallpapercave.com/wp/wp4205526.jpg",
     "news": {
       "title": "Bulgaria joins other western Nations in supporting Israel",
       "brief": "Adopting a declaration in Parliament expressing unwavering support for Israel and condemning Hamas’s terrorist attack on the country",
       "detailed": "Bulgaria’s Parliament adopted on October 13 a declaration expressing unwavering support for Israel and condemning Hamas’s terrorist attack on the country.In light of the brutal, unprecedented and audacious terrorist attack on innocent Israeli citizens on October 7, we, as part of the parties and parliamentary groups of Israel’s partner and allied countries around the world, express our sympathy and unwavering support for our Israeli friends."
     },
-    "references": [
+    "references": 
         "https://sofiaglobe.com/2023/10/13/bulgarias-parliament-condemns-hamass-terrorist-attack-on-israel/"
-    ]
+    
   },
   {
     "id": 10,
-    "name": "Germany", 
+    "country": "Germany", 
     "image_link": "https://th.bing.com/th/id/R.03d0f3d4b49f52b13146c51df776cae7?rik=xr3e0nML%2b7bY2g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwc1800984.jpg&ehk=%2fHpGhEZKHB8CUzPj7b%2fgPnTRD9jibMgCZyXwI3n1ToY%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Germany joins other western nations in supporting Israel",
       "brief": "Germany also offered military help to Israel, including munitions for its navy ",
       "detailed": "Germany has expressed strong support for Israel’s right to defend itself from the Hamas attacks, and has condemned the antisemitic incidents that occurred in Germany during the war. German Chancellor Olaf Scholz was the first western leader to visit Israel after the attacks, declaring it had “every right to defend itself”"
     },
-    "references": [
+    "references": 
         "https://www.theguardian.com/commentisfree/2023/nov/04/germany-israel-hamas-war-peace"
-    ]
+    
   },
   {
     "id": 11,
-    "name": "Poland", 
+    "country": "Poland", 
     "image_link": "https://www.wfmt.com/wp-content/uploads/2017/07/poland-flag1.jpg",
     "news": {
       "title": "Poland Joins Other Western Nations in Supporting Israel",
       "brief": "Poland has also backed Israel’s right to self-defense, and denounced the Hamas attacks as “barbaric and unacceptable”",
       "detailed": " Poland’s President Andrzej Duda spoke with Israeli President Isaac Herzog and expressed his solidarity and condolences . Poland also supported Israel at the United Nations, voting against a resolution that condemned Israel’s actions and called for an arms embargo . Poland has a history of close ties with Israel, stemming from its role in saving Jews during the Holocaust "
     },
-    "references": [
+    "references": 
         "https://www.dw.com/en/poland-and-israel-take-steps-to-normalize-relations/a-62450534"
-    ]
+    
   },
   {
     "id": 12,
-    "name": "Norway", 
+    "country": "Norway", 
     "image_link": "https://th.bing.com/th/id/R.b90216c022682403c0229707d7eb99eb?rik=fowNY0fifZ5rQw&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2013%2fWorld___Norway_Flag_Of_Norway_041948_.jpg&ehk=6IVDjcrvw86SWjQcqmqCMS%2b%2b9mhQBM5vQacqzqEjfKo%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Norway Joins Other Western Nations in Supporting Israel",
       "brief": " Norway has called for an immediate and unconditional ceasefire, and expressed concern over the humanitarian situation in Gaza",
       "detailed": " Norway’s Foreign Minister Ine Eriksen Søreide said that Norway supports a two-state solution, and that Israel has a right to defend itself, but also a responsibility to respect international law and protect civilians . Norway also offered to talk with Hamas, as it has done in the past, to help mediate a truce"
     },
-    "references": [
+    "references": 
         "https://bing.com/search?q=Norway+support+to+Israel+2023"
-    ]
+    
   },
   {
     "id": 13,
-    "name": "Albania", 
+    "country": "Albania", 
     "image_link": "https://th.bing.com/th/id/OIP.MQ1ODfuAoXwRjZ7zHCrvMAHaEK?pid=ImgDet&rs=1",
     "news": {
       "title": "Albania Joins Other Western Nations in Supporting Israel",
       "brief": "Albania has long been a pro-Israel country, and has expressed its support for Israel’s right to defend itself from the Hamas attacks",
       "detailed": "Israel will be grateful to the Albanian people for their support. In many ways, Albania is the true leader in the balkans when it comes to promoting a Holocaust memorial and fighting anti-Semitism"
     },
-    "references": [
+    "references": 
         "https://albaniandailynews.com/news/holocaust-victims-israel-s-president-thanks-albania-for-support-"
-    ]
+    
   },
   {
     "id": 14,
-    "name": "Monaco", 
+    "country": "Monaco", 
     "image_link": "https://th.bing.com/th/id/OIP.2s7kZf0VqNDHoHy3n8FxNgHaEo?pid=ImgDet&rs=1",
     "news": {
       "title": "Monaco Joins Other Western Nations in Supporting Israel",
       "brief": "Monaco has expressed support for Israel’s President Isaac Herzog,",
       "detailed": "Adopting a declaration in Parliament expressing unwavering support for Israel and condemning Hamas’s terrorist attack on the country and Providing humanitarian aid to Israel, especially in the Gaza Strip, where the country faces humanitarian challenges"
     },
-    "references": [
+    "references": 
         "https://som.yale.edu/story/2023/list-companies-have-condemned-hamas-terrorist-attack-israel"
-    ]
+    
   },
   {
     "id": 15,
-    "name": "Kuwait", 
+    "country": "Kuwait", 
     "image_link": "https://th.bing.com/th/id/OIP.aYTDCMfhKit6GEJ_Im2EdwHaEK?pid=ImgDet&rs=1",
     "news": {
       "title": "Kuwait joins other western nations in supporting Israel",
       "brief": "Kuwait also deported a Malayali nurse who posted a pro-Israel message on social media",
       "detailed": "Kuwait has suspended all relations with Israel, and boycotted all Israeli products, in protest of the “atrocities committed against the people of Palestine” . Kuwait’s Foreign Ministry issued a statement heavily condemning the Israeli bombing of Gaza, urging international bodies to intervene in the conflict and declaring sympathy for the Palestinians fighting against “Israeli colonial settlement” "
     },
-    "references": [
+    "references": 
         "https://www.cnn.com/2023/10/20/middleeast/us-middle-east-danger-israel-hamas-war-mime-intl-hnk/index.html"
-    ]
+    
   },
   {
     "id": 16,
-    "name": "Latvia", 
+    "country": "Latvia", 
     "image_link": "https://wallpapercave.com/wp/wp4211970.jpg",
     "news": {
       "title": "Latvia Joins Other Western Nations in Supporting Israel",
       "brief": " Latvia also supported Israel at the United Nations, voting against a resolution that condemned Israel’s actions and called for an arms embargo",
       "detailed": "Latvia has called for a ceasefire and a peaceful solution to the conflict, and expressed support for the efforts of Egypt and other regional actors to mediate . Latvia’s Foreign Minister Edgars Rinkevics said that Latvia recognizes Israel’s right to self-defense, but also expects Israel to act in accordance with international law and avoid civilian casualties"
     },
-    "references": [
+    "references": 
         "https://www.cnn.com/2023/11/02/politics/biden-administration-warning-israel-gaza-civilians/index.html"
-    ]
+    
   },
   {
     "id": 17,
-    "name": "Paraguay", 
+    "country": "Paraguay", 
     "image_link": "https://th.bing.com/th/id/OIP._dld_1Gm1Im1GOMwhA0NgQHaEo?pid=ImgDet&rs=1",
     "news": {
       "title": "Paraguay Joins Other Western Nations in Supporting Israel",
       "brief": "Paraguay expressed its support for Israel’s right to defend itself from the Hamas attacks, and condemned the terrorist actions as “barbaric and unacceptable",
       "detailed": "Paraguay’s President Santiago Peña spoke with Israeli President Isaac Herzog and conveyed his solidarity and sympathy 3. Paraguay also activated a joint mechanism within Mercosur to rescue nationals of all member countries trapped in war-torn Israel . Paraguay voted against a UN resolution that criticized Israel’s actions and called for an arms embargo"
     },
-    "references": [
+    "references": 
         "https://en.wikipedia.org/wiki/International_reactions_to_the_2023_Israel%E2%80%93Hamas_war"
-    ]
+    
   },
   {
     "id": 18,
-    "name": "Portugal", 
+    "country": "Portugal", 
     "image_link": "https://th.bing.com/th/id/R.fd25868051643afa502b1bb06ad48b4f?rik=aULNc4VMoy3Aig&riu=http%3a%2f%2feskipaper.com%2fimages%2fportugal-flag-1.jpg&ehk=nxHnzTAmgmqHHIW2Cqqs1ey4gWRWVT5yXsLfEoTZbFM%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Portugal Joins Other Western Nations in Supporting Israel",
       "brief": "Portugal is expressing support for Israel’s right to defend itself from the Hamas attacks, and condemning the antisemitic incidents that occurred in Portugal during the war",
       "detailed": "Passing a resolution in its parliament in support of Israel, in a gesture for the Jewish state’s 75th anniversary. The resolution calls for the expansion of the Abraham Accords, increased economic and cultural cooperation between Lisbon and Jerusalem, and a solution to the Israeli-Palestinian conflict. The resolution was supported by 215 out of the 230 members of the parliament"
     },
-    "references": [
+    "references": 
         "https://www.theguardian.com/world/2023/oct/10/eu-aid-to-palestinians-will-not-be-cancelled-as-decision-reversed"
-    ]
+    
   }];
-  
+
+
+// Define a schema
+const countrySchema = new Schema({
+  // Define your fields here
+  id: Number,
+  country: String,
+  image_link: String,
+  news: {
+    title: String,
+    brief: String,
+    detailed: String
+  },
+  reference: String
+});
+
+const brandSchema = new Schema({
+  // Define your fields here
+  id: Number,
+  brand: String,
+  image_link: String,
+  news: {
+    title: String,
+    brief: String,
+    detailed: String
+  },
+  reference: String
+});
+
+// Define models based on the schemas
+const PalestineCountry = mongoose.model('PalestineCountry', countrySchema);
+const PalestineBrand = mongoose.model('PalestineBrand', brandSchema);
+const IsraelCountry = mongoose.model('IsraelCountry', countrySchema);
+const IsraelBrand = mongoose.model('IsraelBrand', brandSchema);
+
+// Save your data to the database
+palestineCountries.forEach(country => {
+  new PalestineCountry(country).save();
+});
+
+palestineBrands.forEach(brand => {
+  new PalestineBrand(brand).save();
+});
+
+israelCountries.forEach(country => {
+  new IsraelCountry(country).save();
+});
+
+israelBrands.forEach(brand => {
+  new IsraelBrand(brand).save();
+});

@@ -16,7 +16,7 @@ This website aims to raise awareness about the ongoing injustices and occupation
 
 This project uses npm for package management. To install the project, follow these steps:
 
-1. Clone the repository: `https://github.com/habibullo-dev/freedom-forward.git`
+1. Clone the repository: `https://github.com/humblebeeintel/freedom_forward.git`
 2. Navigate to the project directory: `cd repository`
 3. Install the dependencies: `npm install`
 
