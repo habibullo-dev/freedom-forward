@@ -1,12 +1,15 @@
+require('dotenv').config()
+
 const mongoose = require('mongoose');
 const express = require('express');
 const path = require('path');
+
 
 const app = express();
 const port = 7777;
 
 const Schema = mongoose.Schema;
-const uri = "mongodb+srv://habibullochutboev:toby_2003@hope4palestine.mtasviw.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.MONGODB_URI;
 
 const palestineBrands = [];
 const palestineCountries = [];
