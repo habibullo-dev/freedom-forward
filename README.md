@@ -22,9 +22,7 @@ This project uses npm for package management. To install the project, follow the
 
 ## Usage
 
-To start the application, run `npm start` from the command line in the project directory. Open a web browser and navigate to `http://localhost:3000` to view the application.
-
-## Contributing
+To start the application, run `npm start` from the command line in the project directory. Open a web browser and navigate to `http://localhost:7777` to view the application.
 
 ## Contributors
 

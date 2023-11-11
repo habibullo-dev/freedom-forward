@@ -186,9 +186,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
       }
 
     }
-
-
-
   }
 
   // Call updateCards when the page loads and when the toggle state changes
