@@ -1,2 +1,0 @@
-[build]
-  environment = { MONGODB_URI = "mongodb+srv://habibullochutboev:toby_2003@hope4palestine.mtasviw.mongodb.net/?retryWrites=true&w=majority" }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/icons8-freedom-16.png"
+    />
+    <title>Hope for Palestine</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand text-center text-md-left">
+            <img
+              src="./images/icons8-freedom-64.png"
+              alt="Logo of website"
+              class="logo"
+            />
+            <strong>Freedom Forward</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" id="nations-link">Nations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" id="brands-link">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html" id="nation-brand-link"
+                  >Nation & Brand</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./map.html" id="boycott-map-link"
+                  >Boycott Map</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- HTML -->
+      <div id="map" style="height: 600px; width: 100%"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-light py-4 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <h4>Hope for Palestine</h4>
+            <p>
+              <img src="./images/icons8-freedom-64.png" alt="Project Logo" />
+            </p>
+            <p>"Together, we can make a difference."</p>
+          </div>
+        </div>
+        <div class="mt-1">
+          <p>&copy; 2023 Hope for Palestine</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Create a map centered at South Korea with a country-level zoom
+      var map = L.map("map").setView([35.9078, 127.7669], 6);
+
+      // Add a dark-themed tile layer to the map
+      L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        {
+          maxZoom: 19,
+        }
+      ).addTo(map);
+
+      // Add markers for major cities
+      var cities = [
+        { name: "Seoul", coords: [37.5665, 126.978] },
+        { name: "Busan", coords: [35.1796, 129.0756] },
+        { name: "Incheon", coords: [37.4563, 126.7052] },
+        { name: "Daegu", coords: [35.8714, 128.6014] },
+        { name: "Daejeon", coords: [36.3504, 127.3845] },
+        { name: "Gwangju", coords: [35.1595, 126.8526] },
+        { name: "Suwon", coords: [37.2636, 127.0286] },
+        { name: "Ulsan", coords: [35.5384, 129.3114] },
+        { name: "Changwon", coords: [35.2281, 128.6811] },
+        { name: "Seongnam", coords: [37.4449, 127.1389] },
+        { name: "Goyang", coords: [37.6584, 126.832] },
+        { name: "Yongin", coords: [37.2411, 127.1775] },
+        { name: "Bucheon", coords: [37.5034, 126.766] },
+        { name: "Ansan", coords: [37.3228, 126.8219] },
+        { name: "Jeonju", coords: [35.8242, 127.1479] },
+        { name: "Cheongju", coords: [36.6372, 127.4897] },
+        { name: "Namyangju", coords: [37.636, 127.2165] },
+      ];
+
+      // Define custom icons
+      var cocaColaIcon = L.icon({
+        iconUrl:
+          "https://seeklogo.com/images/C/coca-cola-circle-logo-A9EBD3B00A-seeklogo.com.png",
+        iconSize: [35, 35], // size of the icon
+      });
+
+      var starbucksIcon = L.icon({
+        iconUrl:
+          "https://purepng.com/public/uploads/large/purepng.com-coca-cola-logologobrand-logoiconslogos-251519939746cjaoy.png",
+        iconSize: [35, 35], // size of the icon
+      });
+      //   cities.forEach(function (city) {
+      //     L.marker(city.coords).addTo(map).bindPopup(city.name).openPopup();
+      //   });
+
+      L.marker([37.5665, 126.978], { icon: cocaColaIcon }).addTo(map);
+      L.marker([35.1796, 129.0756], { icon: starbucksIcon }).addTo(map);
+    </script>
+  </body>
+</html>
