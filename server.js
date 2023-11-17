@@ -6,7 +6,7 @@ const path = require('path');
 
 
 const app = express();
-const port = 3000;
+const port = 3030;
 
 const Schema = mongoose.Schema;
 const uri = process.env.MONGODB_URI;

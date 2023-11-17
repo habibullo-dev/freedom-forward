@@ -5,7 +5,7 @@ let palestineBrands = [
     {
     "id": 1,
     "brand": "Huda Beauty",
-    "image_link": "https://mir-s3-cdn-cf.behance.net/projects/404/08384679201139.Y3JvcCw2ODUsNTM1LDgxMyww.jpg",
+    "image_link": "https://i.pinimg.com/originals/36/f7/2e/36f72eaaaf2e89f7a192d9ae89962126.jpg",
     "news": {
       "title": "Huda Kattan speaks out in support of Palestine",
       "brief": "Huda Kattan, founder of Huda Beauty, has repeatedly voiced support for Palestine on social media and called for humanitarian aid.",
@@ -16,10 +16,10 @@ let palestineBrands = [
   {
     "id": 2,
     "brand": "ASOS",
-    "image_link": "https://i.guim.co.uk/img/media/5a33d370a85a68494fb20002a96e18b671f17429/0_13_3500_2100/master/3500.jpg?width=1200&quality=85&auto=format&fit=max&s=aa45673173605fd3876eebb12d906a90",
+    "image_link": "https://th.bing.com/th/id/OIP.DQCkSvwCktv4RWeI8uVoKgHaEo?pid=ImgDet&rs=1",
     "news": {
       "title": "ASOS donates $120k to humanitarian aid for people in Palestine",
-      "brief": "British fashion brand ASOS announced a $120,000 donation to provide humanitarian aid to people in Gaza amidst the 2021 escalation of conflict in Palestine.",
+      "brief": "British fashion brand ASOS announced a $120,000 donation to provide humanitarian aid to people in Gaza",
       "detailed": "ASOS stated on Instagram 'We stand in solidarity with Palestinians' and joined other fashion brands in pledging donations to relief efforts providing essential supplies and medical care. The funds are aimed to help people in Gaza severely impacted by the crisis with food, water, shelter and health services. ASOS said it strongly supports 'better and more peaceful times ahead' for the region."
     },
     "reference": "https://www.brandedgirls.com/palestinian-brands-to-shop-to-support-palestine/"
@@ -31,17 +31,17 @@ let palestineBrands = [
     "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/73/Anthropologie_-_Store_%2851394733512%29.jpg",
     "news": {
       "title": "Anthropologie announces support and donates to children in Gaza",
-      "brief": "Anthropologie posted on Instagram announcing a donation to UNICEF for children in Gaza impacted by the conflict and expressed solidarity with the Palestinian people.",
+      "brief": "Anthropologie posted on Instagram announcing a donation to UNICEF for children in Gaza",
       "detailed": "The brand stated 'We stand against injustice, oppression and racism. We stand with humanity.' Anthropologie announced it was making a donation to UNICEF USA to provide urgent support and services to children and families in Gaza heavily impacted by the crisis. The funds will help UNICEF's efforts to give access to clean water, medical care, mental health services and education for children."
     },
     "reference": "https://blogote.com/brands-that-support-palestine-2023/",
   
     "id": 4,
     "brand": "Net-a-Porter",
-    "image_link": "https://wwd.com/wp-content/uploads/2016/08/the-sporty-jacket-logo.jpg",
+    "image_link": "https://th.bing.com/th/id/OIP.b2Srl-eWL-l5ke5YkCdIKAHaD4?pid=ImgDet&rs=1",
     "news": {
       "title": "Net-a-Porter donates $100k to children's aid groups in Palestine",
-      "brief": "Luxury brand Net-a-Porter pledged a $100,000 donation to UNICEF and Save the Children to provide humanitarian aid and services for children impacted by the crisis in Palestine.",
+      "brief": "Luxury brand Net-a-Porter pledged a $100,000 donation to UNICEF and  to provide humanitarian aid ",
       "detailed": "Net-a-Porter expressed solidarity with the Palestinian people and children caught up in the conflict. The funds are aimed to support urgent relief efforts by UNICEF and Save the Children in Palestine, including access to healthcare, clean water, mental health services and education assistance. Net-a-Porter said it hopes to see 'better and more peaceful times ahead' in the region."
     },
     "reference": "https://www.brandedgirls.com/palestinian-brands-to-shop-to-support-palestine/"
@@ -61,10 +61,10 @@ let palestineBrands = [
   {
     "id": 6,
     "brand": "SJP",
-    "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6M00cHeCF7QWdKC1S9JH79POKseGeRTnzZPB3oKJ_qy-3A1w0zBUE9eUw3-kRIqitz_k&usqp=CAU",
+    "image_link": "https://th.bing.com/th/id/OIP.Cy7lTlaggVtMo5gtTX-PzAHaDT?pid=ImgDet&rs=1",
     "news": {
       "title": "Sarah Jessica Parker's brand SJP donates to children in Gaza",
-      "brief": "Sarah Jessica Parker announced her fashion brand SJP donated to UNICEF to provide humanitarian aid to children in Gaza impacted by the escalating crisis.",
+      "brief": "Sarah Jessica Parker announced her fashion brand SJP donated to UNICEF to provide humanitarian aid to children in Gaza .",
       "detailed": "Sarah Jessica Parker posted on Instagram that her shoe and accessories brand SJP had made a donation to UNICEF to support their relief efforts for children and families in Gaza during the conflict. The funds will help UNICEF provide supplies, medical care, counseling services and access to education. SJP encouraged followers to learn more about the crisis impacting kids in the region."
     },
     "reference": "https://blogote.com/brands-that-support-palestine-2023/"
@@ -76,7 +76,7 @@ let palestineBrands = [
     "image_link": "https://i.ytimg.com/vi/hc2yWJh6A2o/maxresdefault.jpg",
     "news": {
       "title": "Support Palestinian makeup artist and influencer Olivia Hallie",
-      "brief": "Olivia Hallie is a Palestinian makeup artist and influencer that uses her platform to raise awareness about the occupation and promote Palestinian culture.",
+      "brief": "Olivia Hallie is a Palestinian makeup artist that uses her platform to raise awareness about the occupation and promote Palestinian culture.",
       "detailed": "Purchasing Palestinian influencer Olivia Hallie's makeup accessories and supporting her brand is a way to economically empower Palestinian creators. On her social media, Hallie shares insights into Palestinian culture, life under occupation, and promotes local brands and artists from the region. She aims to uplift Palestinian voices and provide a more just representation."
     },
     "reference": "https://buro247.me/fashion/buro-loves/palestinian-brands/"},
@@ -87,7 +87,7 @@ let palestineBrands = [
       "image_link": "https://www.siasat.com/wp-content/uploads/2023/11/Palestine.jpg",
       "news": {
         "title": "American company Pepsi changes its design to avoid boycotting",
-        "brief": "Pepsi launched two of its products with a new look to reflect Palestinian heritage to thank their Palestinian customers in August 2023 as part of its ‘Pepsi Taste Challenge’ campaign, prior to the recent Israel-Palestine conflict",
+        "brief": "Pepsi launched two of its products with a new look to reflect Palestinian heritage to thank their Palestinian customers in August 2023 ",
         "detailed": "The claim that the Israeli company Pepsi changed its product design to avoid a boycott and added “Palestine” to it is false. Pepsi launched the new design reflecting Palestinian heritage as part of the “Pepsi Taste Challenge” campaign in August 2023, well before the Israel-Hamas war began on October 7, 2023"
       },
       "reference": "https://newschecker.in/fact-check/no-pepsi-didnt-change-its-design-to-support-palestine/"
@@ -99,7 +99,7 @@ let palestineBrands = [
       "image_link": "https://cdn.shopify.com/s/files/1/0305/4606/7593/files/Skarmavbild_2020-02-11_kl._00.09.42.jpeg?height=628&pad_color=fff&v=1581460015&width=1200",
       "news": {
         "title": "Anat International is a Palestinian-owned brand that supports Palestine by reviving the textile industry",
-        "brief": "The founder of Anat International Salma Shawa “It’s a very hectic, time-inefficient process. In normal circumstances, we would ship the jacket directly to the customer from Gaza, but in this case, 50 jackets at a time have to be sent from Gaza to West Bank,” she explains.",
+        "brief": "Anat aims to revive the textile industry in Gaza, promoting Palestine's culture by its fashion and products",
         "detailed": "Gaza, under Israel’s draconian rule, suffers from a 52% unemployment rate and struggles to maintain any industry. Anat is attempting to change that, by producing embroidered denim jackets that are 100% locally produced. Made from start to finish in the area, even weaving the denim, the brand also shakes up the traditional gender roles one sees in manufacturing. Anat defies the outdated paradigm of men in the factory and women embroidering at home, and in the process uplifts people in need of a trade and employment. Israel’s military siege makes it difficult for Anat to operate, and the ubiquitous checkpoints make it challenging for the brand to get their product abroad, but they do it anyway!"
       },
       "reference": "https://www.heddels.com/2021/06/anat-aims-preserve-palestinian-embroidery-ungendered-denim-goods-made-gaza/"
@@ -111,7 +111,7 @@ let palestineBrands = [
       "image_link": "https://www.cityam.com/wp-content/uploads/2020/08/1189253638-960x601.jpg",
       "news": {
         "title": "Amazon supporting pro-Palestine voices with products",
-        "brief": "Numerous online vendors on Amazon have made available clothing items featuring the contentious slogan from the river to the sea, Palestine will be free. This phrase has been labelled as an antisemitic chant by several Jewish organizations.",
+        "brief": "Numerous online vendors on Amazon have made available clothing items featuring the contentious slogan from the river to the sea, Palestine will be free.",
         "detailed": "A group of more than 500 Amazon workers signed an internal letter asking its top executives Jeff Bezos and Andy Jassy to support Palestinians,Amazon employs Palestinians in Tel Aviv and Haifa offices and around the world. Ignoring the suffering faced by Palestinians and their families at home erases our Palestinian coworkers"
       },
       "reference": "https://www.businessinsider.com/amazon-workers-jeff-bezos-andy-jassy-support-palestinians-israel-2021-5"
@@ -123,7 +123,7 @@ let palestineBrands = [
       "image_link": "https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/828x552/filters:focal(1020x680:1021x681):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/22977158/acastro_211101_1777_meta_0004.jpg",
       "news": {
         "title": "Palestine’ program to train 500 small businesses; and expanding partnerships with local organizations to further scale up Meta’s efforts in Palestine",
-        "brief": "Meta has also partnered with Startups Without Borders to design and deliver a new initiative consisting of three pillars: a donation of $100,000; a ‘Boost Without Borders",
+        "brief": "Meta has also partnered with Startups Without Borders to design and deliver a new initiative consisting of three pillars: a donation of $100,000;",
         "detailed": "At Meta, in the days after the attack, employees posted about the conflict in the company’s internal “Workplace” communications platform. One Meta employee said they had a post in which they wrote “Pray for Palestine” taken down after another employee reported it to managers, according to screenshots viewed by The Post. Similar posts that said “Pray for Israel” were not taken down, the employee said on an internal message board, according to the screenshots."
       },
       "reference": "https://www.washingtonpost.com/technology/2023/10/22/google-amazon-meta-gaza-israel-contracts/"
@@ -147,7 +147,7 @@ let palestineBrands = [
       "image_link": "https://i.pinimg.com/736x/cc/79/fd/cc79fd836db48a21bb06e4befdb74089.jpg",
       "news": {
         "title": "West Bank Hoodie supports Israel by creating unique apparel from different cities like Ramallah, Jerusalem, Nablus, Bethlehem, and Gaza.",
-        "brief": ". The brand showcases the culture and values of love and empathy that the Palestinians practice and preach. Some of their products include hoodies, shirts, hats, and accessories with pro-Palestine slogans and symbols, such as “Free Palestine”, “Palestine Forever”, and the Dome of the Rock",
+        "brief": "The brand showcases the culture and values of love and empathy that the Palestinians practice and preach. Some of their products include hoodies, shirts, hats, and accessories with pro-Palestine slogans and symbols, such as “Free Palestine”, “Palestine Forever”, and the Dome of the Rock",
         "detailed": "Showing solidarity and support for Palestine with Palestinian apparel.At West Bank Hoodie, we offer all of the supporters of Palestine a special opportunity to purchase their own Palestinian stylish apparel ,and to wear them proudly wherever they are in the world. In days like these, it is becoming more important to show solidarity with Palestine and to express support for the Palestinian people and to end the occupation. Even though many globally seem to want to question those rights, it is now crucial that we all express our united support for Palestine - and how better than on a Palestinian hoodie or T-shirt for the whole world to see Where's Your Hood. "
       },
       "reference": "https://westbankhoodie.com/pages/lookbook"
@@ -159,7 +159,7 @@ let palestineBrands = [
       "image_link": "https://i.pinimg.com/736x/cc/79/fd/cc79fd836db48a21bb06e4befdb74089.jpg",
       "news": {
         "title": "West Bank Hoodie supports Israel by creating unique apparel from different cities like Ramallah, Jerusalem, Nablus, Bethlehem, and Gaza.",
-        "brief": "The brand showcases the culture and values of love and empathy that the Palestinians practice and preach. Some of their products include hoodies, shirts, hats, and accessories with pro-Palestine slogans and symbols, such as “Free Palestine”, “Palestine Forever”, and the Dome of the Rock",
+        "brief": "The brand showcases the culture and values of love and empathy that the Palestinians practice and preach.",
         "detailed": "Showing solidarity and support for Palestine with Palestinian apparel.At West Bank Hoodie, we offer all of the supporters of Palestine a special opportunity to purchase their own Palestinian stylish apparel ,and to wear them proudly wherever they are in the world. In days like these, it is becoming more important to show solidarity with Palestine and to express support for the Palestinian people and to end the occupation. Even though many globally seem to want to question those rights, it is now crucial that we all express our united support for Palestine - and how better than on a Palestinian hoodie or T-shirt for the whole world to see Where's Your Hood. "
       },
       "reference": "https://westbankhoodie.com/pages/lookbook"
@@ -208,7 +208,7 @@ let palestineBrands = [
       "image_link": "https://i.ytimg.com/vi/FylofHQBWCI/maxresdefault.jpg",
       "news": {
         "title": " Nöl Collective works to empower local artisans women’s cooperatives, and preserve traditional crafts across several Palestinian villages",
-        "brief": "Nöl Collective's designs reflect the rich Palestinian heritage through hand embroidery (Tatreez), Majdalawi weaving, and natural dyeing. Nöl Collective’s mission extends beyond clothing, fostering a conscious dialogue about the intertwining nature of fashion, environment, politics, and identity.",
+        "brief": "Nöl Collective's designs reflect the rich Palestinian heritage through hand embroidery (Tatreez), Majdalawi weaving, and natural dyeing.",
         "detailed": "Nol Collective devotes itself to raising awareness about and challenging gendered oppression. It is a community initiative to have open and honest conversations about gender-based issues, while also working with Palestinian manufacturers to support the local economy. The forward-looking project uses fashion to challenge stereotypes by producing garments featuring artwork designed to shed light on social justice issues"
       },
       "reference": "https://ps.boell.org/en/2021/06/10/nol-collective"
@@ -279,18 +279,6 @@ let palestineCountries = [
     },
   
     {
-      "id": 6,
-      "country": "Turkey",
-      "image_link": "https://www.al-monitor.com/sites/default/files/styles/article_header/public/almpics/2019/05/RTS19R85.jpg/RTS19R85.jpg?h=a5ae579a&itok=BbNvYeUV",
-      "news": {
-        "title": "Turkey supports Palestine",
-        "brief": "Turkey has been a vocal supporter of Palestine and has condemned Israel's actions in the region.",
-        "detailed": "Turkey has been a vocal supporter of Palestine and has condemned Israel's actions in the region. Turkish President Recep Tayyip Erdogan has called for an end to the violence and has criticized Israel's use of force against Palestinian civilians. Turkey has also provided humanitarian aid to Gaza and has pledged to continue supporting Palestine."
-      },
-      "reference": "https://www.livemint.com/news/world/israelhamas-war-canada-turkey-iran-egypt-qatar-here-is-the-list-of-nations-that-have-supported-palestine-gaza-11697363499130.html"
-    },
-  
-    {
       "id": 10,
       "country": "Sudan",
       "image_link": "https://www.aljazeera.com/wp-content/uploads/2020/06/bb6cd4f3065d4e1ca6fc0eff195f87ef_18.jpeg?resize=770%2C513&quality=80",
@@ -332,7 +320,7 @@ let palestineCountries = [
       "image_link": "https://www.worldatlas.com/r/w1200/upload/0c/da/6b/untitled-design-180.jpg",
       "news": {
         "title": "Yemen supports Palestine",
-        "brief": "Member of Yemen's Supreme Political Council, Mohammed Ali al-Houthi, confirmed on Friday that Yemen will always stand by the Palestinian people as repeatedly declared by Ansar Allah leader Sayyed Abdul-Malik al-Houthi.",
+        "brief": "Member of Yemen's Supreme Political Council, repeteadly saying that they will always stand with Palestine ",
         "detailed": "Yemen officially unified into a single state, and the newly formed government continued to support Palestine. Yemen has consistently voted in favor of resolutions supporting Palestinian statehood at the United Nations, and has provided financial and political support to the Palestinians."
       },
       "reference": "https://en.wikipedia.org/wiki/Palestine%E2%80%93Yemen_relations"
@@ -380,7 +368,7 @@ let palestineCountries = [
       "image_link": "https://www.advantour.com/img/uzbekistan/symbolics/uzbekistan-flag.jpg",
       "news": {
         "title": "Uzbekistan supports Palestine",
-        "brief": "Sending $1.5 million in aid to Palestine and expressing strong solidarity with the people of Palestine and support for their right to establish their independent state",
+        "brief": "Sending $1.5 million in aid to Palestine and expressing strong solidarity with the people of Palestine ",
         "detailed": "Uzbekistan supports UN General Assembly resolution on Gaza ceasefire,The resolution calls for an immediate, durable, and continuous humanitarian truce with subsequent cessation of hostilities. It also demands the repeal of Israel's order, as an occupying power, to evacuate Palestinian civilians, UN personnel, and humanitarian and medical workers from all areas in the Gaza Strip to the north of Wadi Gaza to the southern part of Gaza."
       },
       "reference": "https://daryo.uz/en/2023/10/29/uzbekistan-supports-un-general-assembly-resolution-on-gaza-ceasefire"
@@ -404,27 +392,28 @@ let israelBrands = [{
     "brand": "Apple",
     "image_link": "https://static.timesofisrael.com/www/uploads/2016/08/000_FQ0UD.jpg",
     "news": {
-        "title": "Apple to open new development center in Jerusalem",
-        "brief": "Apple has announced plans to open a new development center in Jerusalem, which will focus on hardware and software development.",
-        "detailed": "The center will employ hundreds of engineers and will be Apple's first development center in Israel. Apple CEO Tim Cook has said that the company is committed to supporting Israel's technology industry and sees the country as a key market for its products."
+        "title": "Apple has joined to other western nations in supporting israel",
+        "brief": "Apple has donated to Israeli causes and charities, such as the Israel Cancer Association, the Israel AIDS Task Force, and the Peres Center for Peace and Innovation",
+        "detailed": "Apple has invested in Israeli startups and funds, such as the Israel Growth Partners fund, which supports Israeli companies in the fields of cloud computing, cybersecurity, artificial intelligence, and big data,have helped Apple improve its products and services, such as the iPhone, iPad, Mac, Apple TV, Siri, and Face ID"
     },
-    "reference": "https://www.timesofisrael.com/apple-to-open-new-development-center-in-jerusalem/"},{
+    "reference": "https://www.apple.com/il/"},
+    {
     "id": 2,
     "brand": "Microsoft",
     "image_link": "https://media.licdn.com/dms/image/D4D22AQHSAA4GblzpHA/feedshare-shrink_800/0/1679903878949?e=1701302400&v=beta&t=EbNHoxFzl7Z3A-R6bIvXZv2OAmdsNNqeofr6ebYsJIA",
     "news": {
-        "title": "Microsoft to open first cloud data center in Israel",
-        "brief": "Microsoft has announced plans to open its first cloud data center in Israel, which will provide cloud services to customers in the region.",
-        "detailed": "The data center will be located in the Tel Aviv area and will be part of Microsoft's global network of cloud data centers. The move is part of Microsoft's commitment to supporting Israel's technology industry and providing cloud services to customers in the region."
+        "title": "Microsoft has partnered with Israeli educational institutions and organization",
+        "brief": "Microsoft has invested in Israeli startups and funds, such as the Israel Growth Partners fund,",
+        "detailed": "Microsoft has reportedly planned to invest $1 billion to $1.5 billion in Israel through setting up a new data center locally and expanding its chip research and development activities"
     },
-    "reference": "https://www.timesofisrael.com/microsoft-to-open-first-cloud-data-center-in-israel/"
+    "reference": "https://www.timesofisrael.com/microsoft-reportedly-seeking-to-invest-over-1-billion-in-israel/"
   },
-  {       "id": 3,
+  { "id": 3,
     "brand": "Intel",
     "image_link": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iFq.iDmhOYho/v1/-1x-1.jpg",
     "news": {
         "title": "Intel to invest $10 billion in new Israeli chip plant",
-        "brief": "Intel has announced plans to invest $10 billion in a new chip plant in Israel, which will produce advanced processors for use in data centers and other applications.",
+        "brief": "Intel has announced plans to invest $10 billion in a new chip plant in Israel.",
         "detailed": "The new plant will be located in the southern city of Kiryat Gat and will employ thousands of workers. Intel CEO Pat Gelsinger has said that Israel has a major role to play in the company's revival and that the new plant will help to strengthen Israel's technology industry."
     },
     "reference": "https://en.globes.co.il/en/article-israel-has-major-role-to-play-in-intel-revival-1001385860"
@@ -453,31 +442,31 @@ let israelBrands = [{
     "brand": "Tom Ford",
     "image_link": "https://media.licdn.com/dms/image/D4E0BAQH9tPiLt38cxA/company-logo_200_200/0/1695305566079?e=2147483647&v=beta&t=er2z4E0XEEsougatDEiiqIlaKhIJ4JnbpT2yTPKZqbM",
     "news": {
-        "title": "Tom Ford supports Israel",
-        "brief": "Tom Ford, the fashion designer, has expressed support for Israel.",
-        "detailed": "Tom Ford has been a vocal supporter of Israel and has visited the country several times. In an interview with The Jerusalem Post, Ford said that he was impressed by Israel's creativity and innovation and that he saw the country as a key market for his fashion brand."
+        "title": "Tom Ford has expressed its support for Israel",
+        "brief": "Tom Ford has donated some of his products and money to Israeli causes and charities",
+        "detailed": "Tom Ford has collaborated with some Israeli celebrities and personalities, such as Gal Gadot, Bar Refaeli, and Yael Goldman. "
     },
-    "reference": "https://www.brandedgirls.com/international-makeup-brands-that-support-israel/"
+    "reference": "https://www.april.co.il/tom-ford"
   },{
     "id": 7,
     "brand": "AXA XL",
     "image_link": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Faea844bc-1f2b-11e8-a895-1ba1f72c2c11?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
     "news": {
         "title": "AXA XL announces new leadership team in Israel",
-        "brief": "AXA XL has announced a new leadership team in Israel, which will focus on expanding the company's presence in the region.",
+        "brief": "AXA XL has donated funds and products to the association and participated in its annual fundraising event, the Knitted Knockers Campaign",
         "detailed": "The new team will be led by Yael Ben-Ner, who has been appointed as country manager for Israel. AXA XL has said that it sees Israel as a key market for its insurance and risk management services and is committed to supporting the country's technology industry."
     },
-    "reference": "https://axaxl.com/press-releases/axa-xl-announces-new-leadership-team"
+    "reference": "https://axaxl.com/about-us"
   },{
     "id": 8,
     "brand": "Papa John's",
     "image_link": "https://yeahthatskosher.com/wp-content/uploads/2021/08/papa-johns-pizza-kosher-israel-petach-tikva.jpg",
     "news": {
-        "title": "Papa John's hires former Nike exec to learn from retailers",
-        "brief": "Papa John's has hired a former Nike executive to help the company learn from retailers and improve its customer experience.",
+        "title": "It has donated funds and products to these organizations and participated in their events",
+        "brief": "Papa John’s has partnered with some Israeli delivery platforms, such as 10bis, Wolt, and Gett",
         "detailed": "The move is part of Papa John's efforts to stay competitive in the fast-changing restaurant industry and to expand its presence in Israel. Papa John's has said that it sees Israel as a key market for its pizza delivery services and is committed to supporting the country's economy."
     },
-    "reference": "https://www.pymnts.com/news/ecommerce/2023/papa-johns-hires-former-nike-exec-restaurants-learn-retailers/"
+    "reference": "https://www.papajohns.co.il/"
   }, {
     "id": 9,
     "brand": "Starbucks",
@@ -494,19 +483,19 @@ let israelBrands = [{
     "brand": "Victoria's Secret",
     "image_link": "https://th.bing.com/th/id/R.cf46f531538b55be93cea8dda3c9b0e4?rik=srQLxCpToE9WuQ&riu=http%3a%2f%2fwww.digitalvidya.com%2fwp-content%2fuploads%2f2016%2f10%2fVictorias-Secret-Logo-300x225.png&ehk=GwweW4KIKCGcy85dLI5iQG%2fu6XATQtU3NLWJYBNK0Bo%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
     "news": {
-        "title": "Opening two retail stores in Petach Tikva and Haifa in September 2023, as part of a 10-year agreement with the Israeli company Delta Galil and a European franchise partner",
-        "brief": "Launching a Hebrew online store for Israeli customers, offering a wide range of lingerie, beauty products, and accessories",
-        "detailed": "Delta’s investment in the brand in the first five years is estimated to be about NIS 70 million ($19.4 million). The Israeli company has signed a 10-year agreement with the US firm with an option to extend.In September 2023, the first two retail stores will be launched in Petach Tikva and Haifa; but the Victoria’s Secret Israeli online store, in Hebrew, went live effective on Monday."
+        "title": "The brand has expressed its support to israel in variuos ways",
+        "brief": "Victoria's Secret has donated funds and products to these organizations and participated in their events",
+        "detailed": "The brand has supported some Israeli causes and charities, such as the Israel Cancer Association, the Israel AIDS Task Force, and the Peres Center for Peace and Innovation."
     },
-    "reference": "https://www.jewishpress.com/news/breaking-news/victorias-secret-stores-coming-to-israel/2022/12/12/"
+    "reference": "https://www.facebook.com/victoriassecretisraelofficial/"
   },
   {
     "id": 11,
     "brand": "Alpen Gold",
     "image_link": "https://vignette.wikia.nocookie.net/logopedia/images/5/51/Alpengold-logo%402x.png/revision/latest?cb=20180619153605",
     "news": {
-        "title": "Investing in Israeli startups and innovation hubs, such as The Kitchen FoodTech Hub, a food technology incubator that aims to create sustainable solutions for the global food system",
-        "brief": "Partnering with Strauss Group, an Israeli food and beverage company, to produce and distribute coffee products in Israel, such as the popular Elite brand",
+        "title": "It has donated funds and products to the association and participated in its annual fundraising event",
+        "brief": "Investing in Israeli startups and innovation hubs, such as The Kitchen FoodTech Hub, a food technology incubator that aims to create sustainable solutions for the global food system",
         "detailed": "Donating funds and products to the Israeli Defense Forces, as a gesture of solidarity and gratitude for their protection of the country.Featuring Israeli celebrities and influencers in its marketing campaigns, such as Gal Gadot, Bar Refaeli, and Noa Kirel."
     },
     "reference": "https://www.usatoday.com/story/news/politics/2023/11/02/house-israel-aid-mcconnell-schumer-biden/71393928007/"
@@ -517,7 +506,7 @@ let israelBrands = [{
     "image_link": "https://logos-marcas.com/wp-content/uploads/2020/08/Burger-King-Logotipo-1999-presente.jpg",
     "news": {
         "title": "Burger King Israel donated thousands of meals to Israeli soldiers and hospitals amid the ongoing conflict with Hamas",
-        "brief": "Malaysians boycotting  Burger King over support to Israel, Palestine responds",
+        "brief": "Burger King has supported some Israeli causes and charities, such as the Israel Cancer Association, the Israel AIDS Task Force",
         "detailed": "The brand also expressed condolences to the families of the victims and praised the soldiers as heroes. After hamas attack to soldier of Israel were given free food by Burger King which caused to boycotting of the brand by Muslims"
     },
     "reference": "https://www.msn.com/en-us/news/world/burger-king-faces-boycott-for-giving-free-food-to-israeli-soldiers/ar-AA1iI1CZ"
@@ -527,7 +516,7 @@ let israelBrands = [{
     "image_link": "https://logos-world.net/wp-content/uploads/2020/04/McDonalds-Logo-1975-present.png",
     "news": {
         "title": "McDonald's Owners Fight Over Support for Israel",
-        "brief": "What was intended as an offer of goodwill, the donation of McDonald's meals to hospitals and military units in Israel, has sparked a battle between some of the owners of the fast-food giant's franchises across the Middle East and Asia.",
+        "brief": "The donation of McDonald's meals to hospitals and military units in Israel.",
         "detailed": "McDonald's Israel wrote in a translated post to Instagram on October 13: Update that already yesterday we donated 4000 meals to hospitals and military units, we intend to donate thousands of meals every day to soldiers in the field and in drafting areas, and this is beyond a discount to soldiers coming to restaurants. We opened 5 restaurants that were open only for this purpose",
     },
     "reference": "https://www.msn.com/en-us/news/world/mcdonalds-owners-fight-over-support-for-israel/ar-AA1jgQRE"
@@ -549,7 +538,7 @@ let israelBrands = [{
     "image_link": "https://cdn.logojoy.com/wp-content/uploads/2017/07/Chanel_logo.png",
     "news": {
         "title": "Chanel’s CEO and Global Executive Chairman announced the decision in an internal email, which was shared on social media and reported by Women’s Wear Dail",
-        "brief": "Chanel reportedly donated $4 million to organizations providing emergency humanitarian aid to southern Israel, as the country faced a barrage of attacks orchestrated by Hamas, which controlled the neighboring Gaza Strip",
+        "brief": "Chanel reportedly donated $4 million to organizations providing emergency humanitarian aid to southern Israel",
         "detailed": "This contribution highlights the brand’s commitment to assisting the region. Chanel released the following note in the support, They also said they were looking into other “concrete ways of supporting the victims of this devastating crisis” and expressed solidarity with their employees and customers in Israel",
     },
     "reference": "https://www.hollywoodreporter.com/news/general-news/israel-hamas-war-cancellations-fashion-industry-reacts-1235618893/"
@@ -560,7 +549,7 @@ let israelBrands = [{
     "image_link": "https://th.bing.com/th/id/OIP.BrdSJuHr2jv8xCHmukdlUQHaFj?pid=ImgDet&rs=1",
     "news": {
         "title": " Coca-Cola also donated funds and products to the Israeli Defense Forces,",
-        "brief": "Coca-Cola is investing in Israeli startups and innovation hubs, such as The Kitchen FoodTech Hub, a food technology incubator that aims to create sustainable solutions for the global food system",
+        "brief": "Coca-Cola is investing in Israeli startups and innovation hubs and has been involving in donation",
         "detailed": " Coca-Cola has announced that it will be donating four days' worth of income to Israel. Partnering with Strauss Group, an Israeli food and beverage company, to produce and distribute coffee products in Israel, such as the popular Elite brand",
     },
     "reference": "https://www.snopes.com/fact-check/coke-adds-strife/"
@@ -673,7 +662,7 @@ let israelCountries = [{
     "image_link": "https://th.bing.com/th/id/R.39e71f4fcd50a685b59e814436e88efe?rik=gbBri8HtdDpdyg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fsZzrQNk.jpg&ehk=TUbYFJA%2fy0iqiBDN1i24sTBcAOha1oPm1uIodwABMCM%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Brazil Joins Other Western Nations in Supporting Israel",
-      "brief": "Brazil fired its ambassador to Israel, Yossi Shelley, who was appointed by the previous president Jair Bolsonaro, a strong supporter of Israel and friend of Prime Minister Benjamin Netanyahu",
+      "brief": "Brazil fired its ambassador to Israel",
       "detailed": "Brazil supported the United Nations resolution that called for humanitarian assistance and a humanitarian truce for the Israel-Hamas conflict, adopted by a vote of 121 states to 14, with 44 abstentions, Brazil also backed the International Criminal Court’s investigation into alleged war crimes committed by both sides in the conflict"
     },
     "references": 
@@ -700,7 +689,7 @@ let israelCountries = [{
     "news": {
       "title": "Germany joins other western nations in supporting Israel",
       "brief": "Germany also offered military help to Israel, including munitions for its navy ",
-      "detailed": "Germany has expressed strong support for Israel’s right to defend itself from the Hamas attacks, and has condemned the antisemitic incidents that occurred in Germany during the war. German Chancellor Olaf Scholz was the first western leader to visit Israel after the attacks, declaring it had “every right to defend itself”"
+      "detailed": "Germany has expressed strong support for Israel’s right to defend itself from the Hamas attack f Scholz was the first western leader to visit Israel after the attacks, declaring it had “every right to defend itself”"
     },
     "references": 
         "https://www.theguardian.com/commentisfree/2023/nov/04/germany-israel-hamas-war-peace"
@@ -751,7 +740,7 @@ let israelCountries = [{
     "image_link": "https://th.bing.com/th/id/OIP.2s7kZf0VqNDHoHy3n8FxNgHaEo?pid=ImgDet&rs=1",
     "news": {
       "title": "Monaco Joins Other Western Nations in Supporting Israel",
-      "brief": "Monaco has expressed support for Israel’s President Isaac Herzog,",
+      "brief": "Monaco has expressed support for Israel’s President Isaac Herzog",
       "detailed": "Adopting a declaration in Parliament expressing unwavering support for Israel and condemning Hamas’s terrorist attack on the country and Providing humanitarian aid to Israel, especially in the Gaza Strip, where the country faces humanitarian challenges"
     },
     "references": 
@@ -777,7 +766,7 @@ let israelCountries = [{
     "image_link": "https://wallpapercave.com/wp/wp4211970.jpg",
     "news": {
       "title": "Latvia Joins Other Western Nations in Supporting Israel",
-      "brief": " Latvia also supported Israel at the United Nations, voting against a resolution that condemned Israel’s actions and called for an arms embargo",
+      "brief": "Latvia also supported Israel at the United Nations, voting against a resolution that condemned Israel’s actions",
       "detailed": "Latvia has called for a ceasefire and a peaceful solution to the conflict, and expressed support for the efforts of Egypt and other regional actors to mediate . Latvia’s Foreign Minister Edgars Rinkevics said that Latvia recognizes Israel’s right to self-defense, but also expects Israel to act in accordance with international law and avoid civilian casualties"
     },
     "references": 
@@ -790,7 +779,7 @@ let israelCountries = [{
     "image_link": "https://th.bing.com/th/id/OIP._dld_1Gm1Im1GOMwhA0NgQHaEo?pid=ImgDet&rs=1",
     "news": {
       "title": "Paraguay Joins Other Western Nations in Supporting Israel",
-      "brief": "Paraguay expressed its support for Israel’s right to defend itself from the Hamas attacks, and condemned the terrorist actions as “barbaric and unacceptable",
+      "brief": "Paraguay expressed its support for Israel’s right to defend itself from the Hamas attack",
       "detailed": "Paraguay’s President Santiago Peña spoke with Israeli President Isaac Herzog and conveyed his solidarity and sympathy 3. Paraguay also activated a joint mechanism within Mercosur to rescue nationals of all member countries trapped in war-torn Israel . Paraguay voted against a UN resolution that criticized Israel’s actions and called for an arms embargo"
     },
     "references": 
@@ -803,7 +792,7 @@ let israelCountries = [{
     "image_link": "https://th.bing.com/th/id/R.fd25868051643afa502b1bb06ad48b4f?rik=aULNc4VMoy3Aig&riu=http%3a%2f%2feskipaper.com%2fimages%2fportugal-flag-1.jpg&ehk=nxHnzTAmgmqHHIW2Cqqs1ey4gWRWVT5yXsLfEoTZbFM%3d&risl=&pid=ImgRaw&r=0",
     "news": {
       "title": "Portugal Joins Other Western Nations in Supporting Israel",
-      "brief": "Portugal is expressing support for Israel’s right to defend itself from the Hamas attacks, and condemning the antisemitic incidents that occurred in Portugal during the war",
+      "brief": "Portugal is expressing support for Israel’s right to defend itself from the Hamas attacks",
       "detailed": "Passing a resolution in its parliament in support of Israel, in a gesture for the Jewish state’s 75th anniversary. The resolution calls for the expansion of the Abraham Accords, increased economic and cultural cooperation between Lisbon and Jerusalem, and a solution to the Israeli-Palestinian conflict. The resolution was supported by 215 out of the 230 members of the parliament"
     },
     "references": 
