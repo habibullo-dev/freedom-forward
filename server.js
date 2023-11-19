@@ -6,7 +6,7 @@ const path = require('path');
 
 
 const app = express();
-const port = 3030;
+const port = 4000;
 
 const Schema = mongoose.Schema;
 const uri = process.env.MONGODB_URI;
@@ -15,6 +15,7 @@ const palestineBrands = [];
 const palestineCountries = [];
 const israelBrands = [];
 const israelCountries = [];
+const boycotts = [];
 
 mongoose.connect(uri)
   .then(() => {
@@ -45,42 +46,60 @@ mongoose.connect(uri)
       reference: String
     });
 
+    const boycottSchema = new Schema({
+      id: Number,
+      name: String,
+      image: String,
+      location: String,
+      news: {
+        title: String,
+        brief: String,
+        detailed: String
+      },
+      reference: String
+    });
+
+
     // Define models for each type
     const PalestineCountry = mongoose.model('palestinecountries', countrySchema);
     const PalestineBrand = mongoose.model('palestinebrands', brandSchema);
     const IsraelCountry = mongoose.model('israelcountries', countrySchema);
     const IsraelBrand = mongoose.model('israelbrands', brandSchema);
+    const BoycottedBrand = mongoose.model('boycottedbrands', boycottSchema);
 
     // Fetch data from each collection and start the server
     Promise.all([
       PalestineCountry.find(),
       PalestineBrand.find(),
       IsraelCountry.find(),
-      IsraelBrand.find()
+      IsraelBrand.find(),
+      BoycottedBrand.find()
     ])
-    .then(([pcountries, pbrands, icountries, ibrands]) => {
-      palestineCountries.push(...pcountries);
-      palestineBrands.push(...pbrands);
-      israelCountries.push(...icountries);
-      israelBrands.push(...ibrands);
+      .then(([pcountries, pbrands, icountries, ibrands, boycott]) => {
+        palestineCountries.push(...pcountries);
+        palestineBrands.push(...pbrands);
+        israelCountries.push(...icountries);
+        israelBrands.push(...ibrands);
+        boycotts.push(...boycott);
 
-      // Start the server
-      app.use(express.static(path.join(__dirname, '.')));
+        // Start the server
+        app.use(express.static(path.join(__dirname, '.')));
 
-      // Create an API endpoint for the data
-      app.get('/api/data', (req, res) => {
-        res.json({
-          palestineCountries,
-          palestineBrands,
-          israelCountries,
-          israelBrands
+        // Create an API endpoint for the data
+        app.get('/api/data', (req, res) => {
+          res.json({
+            palestineCountries,
+            palestineBrands,
+            israelCountries,
+            israelBrands,
+            boycotts
+          });
         });
-      });
 
-      app.listen(port, () => {
-        console.log(`Server is running at http://localhost:${port}`);
-      });
-    })
-    .catch(err => console.error('Could not connect to MongoDB...', err));
+        app.listen(port, () => {
+          console.log(`Server is running at http://localhost:${port}`);
+        });
+      })
+      .catch(err => console.error('Could not connect to MongoDB...', err));
   })
   .catch(err => console.error('Could not connect to MongoDB...', err));

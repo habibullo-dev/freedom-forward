@@ -1,0 +1,54 @@
+#main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#content {
+  flex: 1; /* This will make the content take up the remaining space */
+}
+
+#sidebar {
+  width: 300px;
+  background-color: #f8f9fa;
+  border-left: 1px solid #dee2e6;
+  padding: 20px;
+  overflow-y: auto;
+  display: none; /* Initially hidden */
+}
+
+#sidebar img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#sidebar h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#sidebar p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#sidebar a {
+  display: inline-block;
+  color: #332D2D;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #332D2D;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#sidebar a:hover {
+  color: #fff;
+  background-color: #332D2D;
+  text-decoration: none;
+}
